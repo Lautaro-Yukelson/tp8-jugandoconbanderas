@@ -1,16 +1,42 @@
 {
-  "name": "tp8-jugandoconbanderas",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.5"
-  }
+	"name": "tp8-jugandoconbanderas",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint",
+		"format": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css,html,md}\""
+	},
+	"dependencies": {
+		"axios": "^1.7.3",
+		"next": "14.2.5",
+		"react": "^18",
+		"react-dom": "^18"
+	},
+	"devDependencies": {
+		"prettier": "^3.3.3"
+	},
+	"prettier": {
+		"arrowParens": "always",
+		"bracketSameLine": true,
+		"bracketSpacing": true,
+		"semi": true,
+		"experimentalTernaries": false,
+		"singleQuote": false,
+		"jsxSingleQuote": false,
+		"quoteProps": "as-needed",
+		"trailingComma": "all",
+		"singleAttributePerLine": false,
+		"htmlWhitespaceSensitivity": "css",
+		"vueIndentScriptAndStyle": false,
+		"proseWrap": "preserve",
+		"insertPragma": false,
+		"printWidth": 80,
+		"requirePragma": false,
+		"tabWidth": 1,
+		"useTabs": true,
+		"embeddedLanguageFormatting": "auto"
+	}
 }
